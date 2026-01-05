@@ -1,7 +1,3 @@
-from burger import Burger
-from ingredient import Ingredient
-from database import Database
-from bun import Bun 
 from unittest.mock import Mock
 
 
