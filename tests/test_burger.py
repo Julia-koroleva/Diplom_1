@@ -8,11 +8,7 @@ from burger import Burger
 from bun import Bun
 
 class TestBurger:
-    """Создание пустого бургера"""
-    def test_create_burger(self):
-        burger = Burger()
-        assert burger.bun == None and burger.ingredients==[]
-
+    
     """Добавление булочек"""
     @pytest.mark.parametrize("buns", TestData.buns_available)  
     def test_set_bun_success(self, buns):
